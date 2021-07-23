@@ -1,0 +1,256 @@
+/* vim: set ts=4 expandtab sw=4 foldmethod=marker: */
+body {
+    margin:50 100;
+    background-color:#f2f2f2;
+}
+
+/*|--- header {{{1 */ 
+header p {
+    position:relative;
+    top:50px;
+    text-align:center;
+    padding:20 20 10 20;
+}
+
+.header_img {
+    border:dotted;
+}
+/* 1}}} */
+
+/*|--- intro {{{1 */ 
+.intro {
+    width:580px;
+    position:relative;
+    top:10px;
+    left:250px;
+}
+.intro p {
+    margin:10 10;
+    text-align:justify;
+    font-family:"Verdana";
+    line-height:1.5em;
+    text-indent:30px;   
+}
+
+.intro h1 {
+    font-family:Georgia, sans;
+    font-size:30px;
+    color:blue;
+}
+
+.mypic {
+    float:right;
+    margin-left:10px;
+    margin-bottom:2px;
+}
+/* 1}}} */
+
+/*|--- nav {{{1 */ 
+nav {
+    position:relative;
+    top:22px;
+    left:100px;
+    border-style:solid;
+    width:870px;
+    line-height:2em;
+    background-color:white;
+}
+
+nav ul {
+    list-style:none;
+}
+
+nav li {
+    padding-left:20px;
+    margin-right:30px;
+    margin-bottom:10px;
+    border-style:double;
+    border-radius:50px;
+    font-size:30px;
+    background-color:#00004d;
+    
+}
+
+nav a {
+    font-family:"Georgia",sans;
+    font-weight:bold;
+    color:#009900;
+    text-decoration:none;
+}
+
+nav a:hover {
+    font-family:"Georgia",sans;
+    color:white;
+    background-color:black;
+}
+
+nav h2 {
+    margin-left:10px;
+}
+/* 1}}} */
+
+/*|--- footer {{{1 */ 
+footer {
+    width:1100px;
+    height:70px;
+    position:relative;
+    top:50px;
+    left:-20px;
+    background-color:#000000;
+    color:#e60000;
+    text-align:left;
+}
+
+footer ul {
+    position:relative;
+    top:25px;
+}
+
+footer li {
+    display:inline;
+    margin-right:10px;
+    list-style:none;
+    font-size:25px;
+}
+
+.twitter_link a {
+    position:relative;
+    top:-10px;
+}
+
+.github_link a {
+    position:relative;
+    top:-10px;
+}
+
+.myEmail {
+    position:relative;
+    top:-13px;
+}
+
+.myEmail span {
+    position:relative;
+    top:4px;
+    font-size:30px;
+}
+
+footer span {
+    font-size:33px;
+    color:#33001a;
+}
+/* 1}}} */
+
+/*|--- Nice links {{{1*/
+.nice_links {
+    position:absolute;
+    left:20px;
+    top:1080px;
+    border:dashed;
+    width:300px;
+    height:800px;
+    background-color:#e6e6ff;
+}
+
+.nice_links h2{
+    color:black;
+    font-size:1em;
+}
+
+.nice_links ul{
+    list-style:none;
+}
+
+.nice_links li{
+    margin-bottom:10px;
+    list-style-type: "\1F449";
+}
+
+.nice_links a {
+    text-decoration:none;
+}
+
+.nice_links a:hover {
+    font-weight:bold;
+    color:blue;
+}
+/*|--- Nice links 1}}}*/
+
+/*|--- Good References {{{1 */
+.references_and_tutorials {
+    position:absolute;
+    left:950px;
+    top:1080px;
+    border:dashed;
+    width:300px;
+    height:800px;
+    background-color:#e6e6ff;
+}
+
+.references_and_tutorials h2 {
+    color:black;
+    font-size:1em;
+}
+
+.references_and_tutorials li {
+    margin-bottom:10px;
+    list-style-type: "\265C";
+}
+
+.references_and_tutorials a {
+    text-decoration:none;
+}
+
+.references_and_tutorials a:hover {
+    font-weight:bold;
+    color:blue;
+}
+/*|--- END Good References 1}}} */
+
+.randomStuff {
+    position:relative;
+    top:50px;
+    left:250px;
+    width:580px;
+}
+
+.randomStuff ul li {
+    list-style:none;
+    margin-bottom:30px;
+}
+
+.randomStuff figure {
+    display:block;
+    text-align:center;
+}
+
+.twitter_link {
+    vertical-align:super;
+}
+
+.github_link {
+    vertical-align:super;
+}
+
+/*|--- Animation {{{1 */
+.myAnimation {
+    position:absolute;
+    animation-name:myAnim;
+    animation-duration:6s;
+    animation-iteration-count:1;
+    left:430px;
+    font-size:60px; 
+    font-weight:bold;
+    animation-timing-function:linear;
+    font-smooth: never;
+    -webkit-font-smoothing : none;
+}
+
+@keyframes myAnim {
+    0%   {left:900px; color:red;}
+    20%  {left:120px; color:yellow;}
+    40%  {left:700px; color:green;}
+    60%  {left:400px; color:blue;}
+    80%  {left:550px; color:gray;}
+    100% {left:430px; color:black;}
+
+/*|--- END Animation 1}}} */
