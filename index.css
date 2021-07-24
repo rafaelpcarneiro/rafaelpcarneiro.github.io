@@ -33,18 +33,17 @@ header {
     position:absolute;
     border-style:none solid solid none;
     line-height:2em;
-    background-color:white;
-    /*width:300px;*/
     width:25%;
     height:1470px;
     background-color:#00004d;
 }
 
-.left_body nav ul {
+.left_body  ul {
     list-style:none;
 }
 
-.left_body nav li {
+.left_body  nav li {
+    position:relative;
     margin-left:0px;
     padding-left:10px;
     padding-top:5px;
@@ -52,28 +51,77 @@ header {
     border-style:none none double none;
     font-size:20px;
     background-color:#00004d;
-    
+    border-color:black;
+    font-family:"Georgia",sans;
+    font-weight:bold;
+    color:#009900;
 }
 
-.left_body nav a {
+.left_body  li:hover {
+    font-family:"Georgia",sans;
+    color:white;
+    background-color:black;
+}
+
+.left_body > nav > ul > li >ul {
+    display:none;
+}
+
+.left_body > nav > ul > li:hover >ul {
+    display:block;
+    position:absolute;
+    left:86.5%;
+    top: 0%;
+    z-index:2
+}
+
+.left_body > nav > ul > li:hover >ul>li {
+    width:250px;
+}
+
+.left_body a {
+    display:block;
+    width:100%;
     font-family:"Georgia",sans;
     font-weight:bold;
     color:#009900;
     text-decoration:none;
 }
 
-.left_body nav a:hover {
+.left_body a:hover {
+    display:block;
+    width:100%;
     font-family:"Georgia",sans;
     color:white;
     background-color:black;
 }
 
-.left_body nav h1 {
+
+.left_body h1 {
     margin-left:10px;
     color:green;
     font-weight:bold;
     font-size:40px;
+}
 
+.left_body li:hover > .myOptButtonBef{
+    display:none;
+}
+
+.left_body li:hover > .myOptButtonAft{
+    content:"";
+    display:inline;
+    position:absolute;
+    right:0%;
+}
+
+.myOptButtonBef {
+    position:absolute;
+    right:0%;
+}
+
+.myOptButtonAft {
+    display:none;
 }
 /* 1}}} */
 
@@ -218,7 +266,6 @@ footer span {
     color:#33001a;
 }
 /* 1}}} */
-
 
 /*|--- Animation {{{1 */
 .myAnimation {
