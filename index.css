@@ -1,9 +1,10 @@
 /* vim: set ts=4 expandtab sw=4 foldmethod=marker: */
 body {
+    position:relative;
     background-color:#f2f2f2;
-    margin:0;
+    margin:0 auto;
     /*max-width:1280px;*/
-    width:100%;
+    width:1280px;
 }
 
 /*|--- header {{{1 */ 
