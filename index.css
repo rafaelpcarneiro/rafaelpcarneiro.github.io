@@ -178,6 +178,13 @@ header {
     font-size:1.1em;
 }
 
+.intro p {
+    font-family:"Verdana";
+    line-height:1.5em;
+    text-indent:30px;   
+    font-size:1.1em;
+}
+
 .mypic {
     float:left;
     margin-left:10px;
